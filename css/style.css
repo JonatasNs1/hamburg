@@ -7,3 +7,14 @@
     height: 70px;
     background-color: aqua;
 }
+.conteudo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    height: inherit;
+    background-color: aqua;
+}
+
+nav{
+    
+}
