@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#hamburg{
+    width: 100%;
+    height: 70px;
+    background-color: aqua;
+}
