@@ -20,14 +20,79 @@ header{
     
 }
 
-#logo{
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    font-family: arial;
+}
+
+#listaHamburg{
+    list-style: none;
+/*     background-color: blue;*/
+    top: 60px;
+    position:relative;
+/*    position: absolute;*/
+}
+
+
+label{
+/*   background-color: red;*/
+    padding: 15px;
+    position: absolute; /*deixar a imagem por cima*/
+    z-index: 1;
+/*    background-color: red;*/
+}
+/*
+
+ul{
+  
+}
+*/
+
+#imgHamburg{
+    width: 40px;
+/*    height: 40px;*/
+}
+
+input[type ="checkbox"]{
+    display: none;  /*todo input checkbox vai  ser escondido por conta do display none */
+}
+#menuHamburg{
+    background-color:rgba(16,16,16,.5);
+    width: 350px;
+   left: -350px;
+    height: 800px;
+/*    position: relative;*/
+}
+
+input[type"checkbox"]:checked ~nav#{
+    transform: translateX(350px);
+}
+a{
+/*    background-color: red;*/
+    display: block; /*display:block para deixar ele do tamanho do elemento pai */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color:#ffffff;
+}
+a:hover{
+   background-color: rgb(175,224,230);
+    color:black;
+}
+/*
+#imgHamburg{
     width: 200px;
     height: inherit;
     float: left;
     background-color: blue;
     margin-left: 10px;
-/*    margin-top: 10px;*/
+    margin-top: 10px;
 }
+*/
 
 #menu{
     float: left;
@@ -91,27 +156,6 @@ header{
     height: 1000px;
 }
 
-#br{
-    width: 200px;
-    height: auto;
-    min-height: 1000px;
-    background-color: red;
-}
 
 
-
-/*
-  #cabecalhos{
-    width: 100%;
-    height: 70px;
-    background-color: aqua;
-} 
-.conteudo{
-    margin-left: auto;
-    margin-right: auto;
-    width: 1300px;
-    height: inherit;
-    background-color: black;
-} 
-*/
 
