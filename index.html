@@ -11,23 +11,34 @@
 
     <body>
         
-<!--
+
         <header>
             <div class="conteudo">
-                <div id="logo"> </div>
-                <nav id="menu">
-                      <ul id="listaMenu">
-                        <li> HOME</li>
-                        <li> VARIEDADES</li>    
-                        <li>PREÇOS </li>
-                        <li> PRODUTOS</li>
-                    </ul>
-                </nav>
-                <div id="redesSociais">
-                     <div class="itemRedesSocias"></div>
-                    <div class="itemRedesSocias"></div>
-                    <div class="itemRedesSocias"></div>
+                <div id="logo">
+                <img src="img/logo.png" id="imgLogo">
                 </div>
+
+               <nav id="menu">
+                    <ul id="listaMenu">
+                        <li id="1"> A Empresa</li>
+                        <li> Lojas </li>
+                         <li> Promoções </li>
+                         <li> Destaques </li>
+                         <li> Contatos</li>
+                   </ul>
+                
+                </nav>
+                
+                <div id="redesSociais">
+                    <div class="itemSociais"><img src="img/insta.png" class="imgSociais"> </div>
+                     <div class="itemSociais">
+                         <img src="img/face.png" class="imgSociais">
+                    </div>
+                     <div class="itemSociais"> 
+                         <img src="img/twitter.png" class="imgSociais">
+                    </div>
+                </div>
+            
                 
                
             </div>
@@ -36,28 +47,163 @@
         <div class="banner">
             <img src="img/banner1.jpg" class="imagem">
        </div>
--->
+
         
+        <div id="caixas">
+            <div class="conteudo">
+                
+                <div id="pi">
+                     <label><span>Pesquisar: </span></label>
+                    <input type="text" id="pesquisa" placeholder="Faça uma pesquisa" name="pesquisa">
+                      
+                <input type="submit" id="btnPesquisar" value="Pesquisar" name="btnPesquisar">
+                </div>
+             
+            </div>
         
-        <div>
-             <input type="checkbox" id="check">
-        <label for="check">
-            <img src="img/menu.png" id="imgHamburg"> 
-        </label>
-        <div>
-            <nav id="menuHamburg">
-                <ul id="listaHamburg">
-                    <li><a href=""> HOME</a> </li>
-                    <li><a href="">NOVIDADES</a> </li>
-                    <li> <a href="">TUTORIAIS</a></li>
-                    <li><a href="">CONTATO</a> </li>
-                    <li><a href="">SOBRE</a> </li>
-                </ul>
-            </nav>
+        </div>
+
+        <div id="produtos">
+
+           <div class="cards">
+                <div class="imgCard">
+                    <img src="img/oraculo.png" class="imagemCards">
+               </div>
+            <div class="nomeProduto">
+                
+                <h3>Oráculo</h3>
+                <div class="separacao"></div>
+             </div>
+               <div class="sobreProduto">
+                   <p> Desenvolvido pela Tradi, hambúrguer da casa, coberto por fusão cremosa de queijo cheddar inglês com pepperoni moído, servido em pão de hambúrguer artesanal branco.</p>
+               </div>
+               <div class="botaosm">
+                   <input class="botaoSaibaMais"type="submit" value="Saiba Mais" name="btnSaibaMais">
+               </div>
+               <div class="preco">
+                R$:0,00
+               </div>
+            </div>
+            
+             <div class="cards">
+                <div class="imgCard">
+                  <img src="img/vilaNova.png" class="imagemCards">
+                 
+                 </div>
+            <div class="nomeProduto">
+                <h3> Vila Nova</h3>
+                 <div class="separacao"></div>
+             </div>
+               <div class="sobreProduto">
+                   <p> Hambúrguer da casa de 180 g, queijo cheddar inglês coberto por anéis de cebola empanadas, duas fatias de bacon caramelizado, molho barbecue da casa servido no pão brioche artesanal fabricado na casa.</p>
+               </div>
+               <div class="botaosm">
+                   <input class="botaoSaibaMais"type="submit" value="Saiba Mais" name="btnSaibaMais">
+               </div>
+               <div class="preco">
+                R$:0,00
+               </div>
+            </div>
+            
+             <div class="cards">
+                <div class="imgCard">
+                     <img src="img/ipiranga.png" class="imagemCards">
+                 </div>
+            <div class="nomeProduto">
+                <h3> Ipiranga</h3>
+                 <div class="separacao"></div>
+             </div>
+               <div class="sobreProduto">
+                   <p>Este é o clássico Cheese-salada com molho de tomate. Homenagem ao local onde nossa história se iniciou. Hambúrguer de 100 g bem passado, coberto por molho de tomate “Ouviram do Ipiranga às margens plácidas”, alface, queijo prato, maionese caseira, servido no pão de hambúrguer branco tradicional prensado e quentinho. Respeitando a tradição, esse é o único hambúrguer da casa servido obrigatóriamente BEM PASSADO.</p>
+               </div>
+               <div  class="botaosm">
+                   <input class="botaoSaibaMais"type="submit" value="Saiba Mais" name="btnSaibaMais">
+               </div>
+               <div class="preco">
+                R$:0,00
+               </div>
+            </div>
+            
+            <div class="cards">
+                <div class="imgCard">
+                 <img src="img/faixaAzul.png" class="imagemCards">
+                </div>
+            <div class="nomeProduto">
+                <h3> Faixa Azul</h3>
+                 <div class="separacao"></div>
+             </div>
+               <div class="sobreProduto">
+                   <p> Hamburguer da casa, coberto por fusão cremosa de American Cheese e Gorgonzola, farofa de bacon e pimenta jalapeño, servido no pão branco artesanal.</p>
+               </div>
+               <div  class="botaosm">
+                   <input class="botaoSaibaMais"type="submit" value="Saiba Mais" name="btnSaibaMais">
+                     
+               </div>
+              <div class="preco">
+                            R$:0,00
+                   </div>
+            </div>
+            
+            <div class="cards">
+                <div class="imgCard">
+                 <img src="img/CHEESEBURGER.jpg" class="imagemCards">
+                </div>
+            <div class="nomeProduto">
+                <h3>  Cheese burguers</h3>
+                    
+                     <div class="separacao"></div>
+               
+             </div>
+               <div class="sobreProduto">
+                   <p> Hambúrguer da casa, queijo prato, servido no pão de hambúrguer artesanal branco.</p>
+               </div>
+               <div  class="botaosm">
+                   <input class="botaoSaibaMais"type="submit" value="Saiba Mais" name="btnSaibaMais">
+               </div>
+               <div class="preco">
+                R$:0,00
+               </div>
+            </div>
+            
+            <div class="cards">
+                <div class="imgCard">
+                     <img src="img/costaOeste.png" class="imagemCards">
+                </div>
+            <div class="nomeProduto">
+                <h3> Costa Oeste</h3>
+                 <div class="separacao"></div>
+             </div>
+               <div class="sobreProduto">
+                   <p> O famoso Cheese Salada da Costa Oeste norte- americana. Hambúrguer da casa, tomate, cebola roxa, alface, queijo prato, maionese verde, servido no pão brioche artesanal.</p>
+               </div>
+               <div  class="botaosm">
+                   <input class="botaoSaibaMais"type="submit" value="Saiba Mais" name="btnSaibaMais">
+               </div>
+               <div class="preco">
+                R$:0,00
+               </div>
+            </div>
+            
+              
+       
+            
+              
            
         </div>
+        
+<!--
+        <div id="empresa">
+            <section class="conteudo">
+                <h2> Empresa</h2>
+            
+            
+            </section>
         </div>
-       
+-->
+      
+        
+        
+    
         
     
     </body>
