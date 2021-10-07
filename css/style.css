@@ -40,13 +40,7 @@ input::placeholder {
     border-radius: 10px;
     
 }
-/*
-#btnPesquisar{
-     width: 150px;
-    height: 30px;
-    background-color: 
-}
-*/
+
 span {
 
     padding: 5px;
@@ -56,15 +50,17 @@ span {
 }
 #pi{
     float: right;
-    margin-top: -15px;
+    margin-top: -48px;
+    margin-right: 40px;
     
 }
+
 #btnPesquisar{
     width: 100px;
     height: 30px;
     background-color: dodgerblue;
     color: white;
-    margin-top: 30px;
+
     font-size: 1.2em;
     margin-left: 25px;
     
@@ -100,13 +96,7 @@ span {
 /*    margin-left: 220px;*/
 }
 
-/*
-#loja{
 
-   text-align: center;
-  
-}
-*/
 #listaMenu{
     width:inherit;
     height:inherit;
@@ -174,15 +164,86 @@ span {
 }
 
 
+.conteudoMenu{
+     margin-right: auto;
+    margin-left: auto;
+    width: 2000px;
+    height: inherit;
+/*    background-color:blue;*/
+}
 
 
 
+#imgHamburg{
+    width: 60px;
+    height: 40px;
+    padding-left: 15px;
+    padding-top: -10px;
+}
 
+#imgHamburg:hover{
+    color: aliceblue;
+    cursor: pointer;
+}
 
+#menuHam{
+    width: 100px;
+    height:inherit;
+/*    background-color: red;*/
+    margin-left: 10px;
+    padding-top: 5px;
+}
+#menuhamburg{
+    background-color: chocolate;
+    width: 315px;
+    margin-top: -1320px;
+    height: 500px;
+    position: absolute;
+}
+input[type="checkbox"]:checked ~ nav{
+    transform: translateY(1320px);
+}
 
+input[type="checkbox"]{
+   display: none;
+}
+#ulHamburg{
+    list-style: none;
+   margin-top: 60px;
+    position: absolute;
+    width: 100%;
+}
+
+#ulHamburg{
+    font-size: 1.1em;
+    font-family: verdana;
+}
+
+.linkMenu{
+/*    background-color: red;*/
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #ffffff;
+}
+
+.linkMenu:hover{
+    background-color: rgb(176,224,230);
+    color: #000;
+}
+
+#lblHamburg{
+/*    background-color: aliceblue;*/
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
 a{
     text-decoration: none;
     color: black;
+  
 }
 body{
     font-family: arial;
@@ -203,45 +264,8 @@ a{
     color:#ffffff;
 }
 
-#imgHamburg{
-    width: 200px;
-    height: inherit;
-/*    background-color: blue;*/
-    float: left;
-
-/*    background-color: aqua;*/
-
-    background-color: blue;
-    margin-left: 10px;
-    margin-top: 10px;
-    }
 
 
-
-/*
-#menu{
-    width: 950px;
-    height: inherit;
-    background-color: aqua;
-    float: left;
-    margin-left: 30px;
-}
-*/
-
-
-/*
-span{
-    color: #000;
-}
-*/
-
-#imgHamburg{
-    width: 40px;
-    height: 40px;
-}
-#menuHamburg{
-    float: left;
-}
 #campoPesquisa{
    
   float: right;
@@ -379,6 +403,8 @@ p{
     margin-right: 30px;
         font-size: 1.5em;
 }
+
+
 
 .botaoSaibaMais{
     width: 150px;
