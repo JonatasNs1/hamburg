@@ -16,7 +16,7 @@ header{
     margin-left: auto;
     width: 1400px;
     height: inherit;
-/*    background-color:red;*/
+/*    background-color:blue;*/
     
 }
 
@@ -362,7 +362,7 @@ h3{
     font-size:1.2em;
 }
 p{
-    1.2em;
+   font-size: 1.1em;
     color: #000;
     font-family: verdana;
     padding-left: 5px;
@@ -504,6 +504,32 @@ h2{
      font-size:1.5em;
     font-family:arial;
 }
+
+
+#destaques{
+      width: 100%;
+    height:auto;
+    min-height: 400px;
+    overflow: auto;
+    background-color:#f1f8e9;
+}
+
+
+.destaqueLoja{
+    border-radius:500px;
+    width:230px;
+    height:230px;
+/*    background-color:tomato;*/
+    float:left;
+    margin-top:30px;
+    margin-left:100px;
+}
+.imagemDestaque{
+     width:inherit;
+    height:inherit;
+    border-radius:500px;
+}
+
 
 
 
